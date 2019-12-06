@@ -3,14 +3,13 @@ using System.Threading;
 
 namespace TestPS3
 {
-    public class Entry<TK, TP> : IEquatable<Entry<TK, TP>>
+    public class Entry<T> : IEquatable<Entry<T>>
     {
-        public TK Key { get; set; }
-        public TP Pointer { get; set; }
+        public T Value { get; set; }
 
-        public bool Equals(Entry<TK, TP> other)
+        public bool Equals(Entry<T> other)
         {
-            return this.Key.Equals(other.Key) && this.Pointer.Equals(other.Pointer);
+            return this.Value.Equals(other.Value);
         }
     }
 }

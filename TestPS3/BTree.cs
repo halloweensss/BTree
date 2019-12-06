@@ -36,10 +36,43 @@ namespace TestPS3
         {
             int positionToInsert = node.Entries.TakeWhile(entry => value.CompareTo(entry.Value) >= 0).Count();
 
-            node.Entries.Insert(positionToInsert, new Entry<T>() {Value = value});
+            if (node.IsLeaf)
+            {
+                node.Entries.Insert(positionToInsert, new Entry<T>() {Value = value});
+                return;
+            }
+
+            Node<T> child = node.Children[positionToInsert];
+            if (child.HasReachedMaxEntries)
+            {
+                this.SplitChild(node, positionToInsert, child);
+                if (value.CompareTo(node.Entries[positionToInsert].Value) > 0)
+                {
+                    positionToInsert++;
+                }
+            }
+            
+            this.InsertNonFull(node.Children[positionToInsert], value);
 
         }
 
+        private void SplitChild(Node<T> parentNode, int nodeToBeSplitIndex, Node<T> nodeToBeSplit)
+        {
+            Node<T> newNode = new Node<T>(this.Degree);
+            
+            parentNode.Entries.Insert(nodeToBeSplitIndex, nodeToBeSplit.Entries[this.Degree - 1]);
+            parentNode.Children.Insert(nodeToBeSplitIndex + 1, newNode);
+            
+            newNode.Entries.AddRange(nodeToBeSplit.Entries.GetRange(this.Degree, this.Degree - 1));
+            
+            nodeToBeSplit.Entries.RemoveRange(this.Degree - 1, this.Degree);
+
+            if (!nodeToBeSplit.IsLeaf)
+            {
+                newNode.Children.AddRange(nodeToBeSplit.Children.GetRange(this.Degree, this.Degree));
+                nodeToBeSplit.Children.RemoveRange(this.Degree, this.Degree);
+            }
+        }
         public Entry<T> Search(T value)
         {
             return SearchInternal(this.Root, value);
@@ -54,7 +87,7 @@ namespace TestPS3
                 return node.Entries[i];
             }
 
-            return node.IsLeaf ? null : this.SearchInternal(node.Children[0], value);
+            return node.IsLeaf ? null : this.SearchInternal(node.Children[i], value);
         }
 
         public void Delete(T value)

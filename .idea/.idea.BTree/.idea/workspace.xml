@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81445ad0-c561-48db-aa3b-6de29dca7582" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BTree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/TestPS3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/TestPS3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/TestPS3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/TestPS3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestPS3/BTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/BTree.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPS3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +31,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/db/f81f0eb2/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestPS3/Entry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/d0/413f00eb/IComparable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestPS3/BTree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestPS3/Node.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,13 +43,18 @@
       <list>
         <option value="$PROJECT_DIR$/BTree/BTree.cs" />
         <option value="$PROJECT_DIR$/BTree/Program.cs" />
-        <option value="$PROJECT_DIR$/TestPS3/Program.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Entry.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Node.cs" />
-        <option value="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/TestPS3/BTree.cs" />
+        <option value="$PROJECT_DIR$/TestPS3/Program.cs" />
+        <option value="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" />
       </list>
     </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="1Uc9WkiBweLO0GpmtFyzwfzy0cO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -63,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="9b61a10f-bfc0-4eb1-b096-84d74fb4cdad">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -93,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575645052159</updated>
-      <workItem from="1575645056649" duration="12155000" />
+      <workItem from="1575645056649" duration="19568000" />
     </task>
     <servers />
   </component>
@@ -157,19 +177,38 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs</url>
-          <line>56</line>
-          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="56">
+          <url>file://$PROJECT_DIR$/TestPS3/Program.cs</url>
+          <line>8</line>
+          <properties documentPath="$PROJECT_DIR$/TestPS3/Program.cs" initialLine="8">
             <startOffsets>
-              <option value="1625" />
+              <option value="121" />
             </startOffsets>
             <endOffsets>
-              <option value="1640" />
+              <option value="157" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs</url>
+          <line>42</line>
+          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="42">
+            <startOffsets>
+              <option value="1179" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1195" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <reveal-manager>
+      <revealed-members>
+        <RevealItemInfo typeName="TestPS3.Node`1[System.Int32]" fieldName="Children" />
+        <RevealItemInfo typeName="TestPS3.Node`1[System.Int32]" fieldName="Entries" />
+      </revealed-members>
+    </reveal-manager>
   </component>
 </project>

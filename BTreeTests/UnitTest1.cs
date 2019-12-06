@@ -53,6 +53,8 @@ namespace Tests
             BTree<int> tree = new BTree<int>(2);
             tree.Insert(1);
             tree.Insert(2);
+            tree.Insert(3);
+            tree.Insert(4);
             Assert.AreEqual(1, tree.Search(1).Value);
             tree.Delete(1);
             Assert.AreEqual(null, tree.Search(1));

@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81445ad0-c561-48db-aa3b-6de29dca7582" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BTree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/TestPS3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/TestPS3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/TestPS3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/TestPS3.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestPS3/BTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/BTree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestPS3/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/Node.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +30,8 @@
         <option value="$PROJECT_DIR$/BTree/Program.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Program.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Entry.cs" />
-        <option value="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Node.cs" />
+        <option value="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/TestPS3/BTree.cs" />
       </list>
     </option>
@@ -107,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575645052159</updated>
-      <workItem from="1575645056649" duration="11312000" />
+      <workItem from="1575645056649" duration="12155000" />
     </task>
     <servers />
   </component>
@@ -115,10 +101,10 @@
     <option name="version" value="1" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="60" />
+    <option name="coveragePercentColumnWidth" value="79" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="35" />
+    <option name="symbolColumnWidth" value="44" />
     <coverage-tree-state>
       <expand>
         <path>
@@ -172,29 +158,16 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs</url>
-          <line>31</line>
-          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="31">
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="56">
             <startOffsets>
-              <option value="878" />
+              <option value="1625" />
             </startOffsets>
             <endOffsets>
-              <option value="893" />
+              <option value="1640" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs</url>
-          <line>32</line>
-          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="32">
-            <startOffsets>
-              <option value="906" />
-            </startOffsets>
-            <endOffsets>
-              <option value="949" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

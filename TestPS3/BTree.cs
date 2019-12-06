@@ -59,11 +59,22 @@ namespace TestPS3
 
         public void Delete(T value)
         {
-            int i = Root.Entries.TakeWhile(entry => value.CompareTo(entry.Value) > 0).Count();
+            DeleteInternal(this.Root, value);
+        }
 
-            if (i < Root.Entries.Count && Root.Entries[i].Value.CompareTo(value) == 0)
+        private void DeleteInternal(Node<T> node, T value)
+        {
+            int i = node.Entries.TakeWhile(entry => value.CompareTo(entry.Value) > 0).Count();
+
+            if (i < node.Entries.Count && node.Entries[i].Value.CompareTo(value) == 0)
             {
-                Root.Entries.RemoveAt(i);
+                node.Entries.RemoveAt(i);
+                return;
+            }
+
+            if (!node.IsLeaf)
+            {
+                this.DeleteInternal(node.Children[i], value);
             }
         }
     }

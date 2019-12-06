@@ -38,6 +38,17 @@ namespace Tests
             Assert.AreEqual(1, tree.Search(1).Value);
             Assert.AreEqual(null, tree.Search(3));
         }
+
+        [Test]
+        public void CanRemoveValueFromTree()
+        {
+            BTree<int> tree = new BTree<int>(3);
+            tree.Insert(1);
+            tree.Insert(2);
+            Assert.AreEqual(1, tree.Search(1).Value);
+            tree.Delete(1);
+            Assert.AreEqual(null, tree.Search(1));
+        }
         
         
     }

@@ -56,8 +56,9 @@ namespace Tests
             tree.Insert(3);
             tree.Insert(4);
             Assert.AreEqual(1, tree.Search(1).Value);
-            tree.Delete(1);
-            Assert.AreEqual(null, tree.Search(1));
+            tree.Delete(4);
+            Assert.AreEqual(null, tree.Search(4));
+            Assert.AreEqual(1, tree.Height);
         }
         
         

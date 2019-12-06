@@ -60,6 +60,12 @@ namespace TestPS3
         public void Delete(T value)
         {
             DeleteInternal(this.Root, value);
+
+            if (this.Root.Entries.Count == 0 && !this.Root.IsLeaf)
+            {
+                this.Root = this.Root.Children.Single();
+                this.Height--;
+            }
         }
 
         private void DeleteInternal(Node<T> node, T value)

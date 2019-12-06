@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/halloween/RiderProjects/BTree/BTree/BTree.csproj",
-    "projectName": "BTree",
-    "projectPath": "/Users/halloween/RiderProjects/BTree/BTree/BTree.csproj",
-    "outputPath": "/Users/halloween/RiderProjects/BTree/BTree/obj/",
+    "projectUniqueName": "/Users/halloween/RiderProjects/BTree/TestPS3/TestPS3.csproj",
+    "projectName": "TestPS3",
+    "projectPath": "/Users/halloween/RiderProjects/BTree/TestPS3/TestPS3.csproj",
+    "outputPath": "/Users/halloween/RiderProjects/BTree/TestPS3/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

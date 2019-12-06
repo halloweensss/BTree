@@ -1,0 +1,11 @@
+/Users/halloween/RiderProjects/BTree/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.deps.json
+/Users/halloween/RiderProjects/BTree/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.runtimeconfig.json
+/Users/halloween/RiderProjects/BTree/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.runtimeconfig.dev.json
+/Users/halloween/RiderProjects/BTree/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.dll
+/Users/halloween/RiderProjects/BTree/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.pdb
+/Users/halloween/RiderProjects/BTree/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.csprojAssemblyReference.cache
+/Users/halloween/RiderProjects/BTree/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.csproj.CoreCompileInputs.cache
+/Users/halloween/RiderProjects/BTree/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.AssemblyInfoInputs.cache
+/Users/halloween/RiderProjects/BTree/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.AssemblyInfo.cs
+/Users/halloween/RiderProjects/BTree/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.dll
+/Users/halloween/RiderProjects/BTree/TestPS3/obj/Debug/netcoreapp2.1/TestPS3.pdb

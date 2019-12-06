@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 using TestPS3;
 
@@ -23,16 +24,20 @@ namespace Tests
         [Test]
         public void CanInsertValuesIntoBTree()
         {
-            BTree<int> tree = new BTree<int>(3);
+            BTree<int> tree = new BTree<int>(2);
+            Console.WriteLine(tree.Root.Entries.Count);
             tree.Insert(1);
             tree.Insert(2);
-            Assert.AreEqual(2, tree.Root.Entries.Count);
+            tree.Insert(3);
+            tree.Insert(4);
+            Assert.AreEqual(3,tree.Root.Entries.Count);
+            Assert.AreEqual(2, tree.Height);
         }
 
         [Test]
         public void CanFindTheValueInTheBTree()
         {
-            BTree<int> tree = new BTree<int>(3);
+            BTree<int> tree = new BTree<int>(2);
             tree.Insert(1);
             tree.Insert(2);
             Assert.AreEqual(1, tree.Search(1).Value);
@@ -42,7 +47,7 @@ namespace Tests
         [Test]
         public void CanRemoveValueFromTree()
         {
-            BTree<int> tree = new BTree<int>(3);
+            BTree<int> tree = new BTree<int>(2);
             tree.Insert(1);
             tree.Insert(2);
             Assert.AreEqual(1, tree.Search(1).Value);

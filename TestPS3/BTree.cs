@@ -19,7 +19,14 @@ namespace TestPS3
 
         public void Insert(T value)
         {
-            Root.Entries.Add(new Entry<T>() {Value = value});
+            if (!Root.HasReachedMaxEntries)
+            {
+                int positionToInsert = Root.Entries.TakeWhile(entry => value.CompareTo(entry.Value) >= 0).Count();
+                Root.Entries.Insert(positionToInsert, new Entry<T>() {Value = value});
+                return;
+            }
+
+            this.Height++;
         }
 
         public Entry<T> Search(T value)

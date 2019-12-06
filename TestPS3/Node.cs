@@ -8,12 +8,14 @@ namespace TestPS3
         private int _degree;
         public List<Node<T>> Children { get; set; }
         public List<Entry<T>> Entries { get; set; }
+        
+        public bool HasReachedMaxEntries => this.Entries.Count == (2 * this._degree) - 1;
 
         public Node(int degree)
         {
-            this._degree = _degree;
-            Children = new List<Node<T>>();
-            Entries = new List<Entry<T>>();
+            this._degree = degree;
+            Children = new List<Node<T>>(degree);
+            Entries = new List<Entry<T>>(degree);
         }
     }
 }

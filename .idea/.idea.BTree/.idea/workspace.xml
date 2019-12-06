@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81445ad0-c561-48db-aa3b-6de29dca7582" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BTree/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BTree/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BTree/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/bin/Debug/netcoreapp2.1/BTreeTests.dll" afterDir="false" />
@@ -45,9 +44,9 @@
         <option value="$PROJECT_DIR$/BTree/Program.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Program.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Entry.cs" />
+        <option value="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Node.cs" />
         <option value="$PROJECT_DIR$/TestPS3/BTree.cs" />
-        <option value="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -108,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575645052159</updated>
-      <workItem from="1575645056649" duration="9099000" />
+      <workItem from="1575645056649" duration="11312000" />
     </task>
     <servers />
   </component>
@@ -116,10 +115,10 @@
     <option name="version" value="1" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="coveragePercentColumnWidth" value="60" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="155" />
+    <option name="symbolColumnWidth" value="35" />
     <coverage-tree-state>
       <expand>
         <path>
@@ -143,14 +142,6 @@
           <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="7" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="7" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="48" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -181,16 +172,29 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs</url>
-          <line>29</line>
-          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="29">
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="31">
             <startOffsets>
-              <option value="850" />
+              <option value="878" />
             </startOffsets>
             <endOffsets>
-              <option value="865" />
+              <option value="893" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="32">
+            <startOffsets>
+              <option value="906" />
+            </startOffsets>
+            <endOffsets>
+              <option value="949" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

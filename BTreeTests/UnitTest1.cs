@@ -9,8 +9,12 @@ namespace Tests
         [Test]
         public void CanCreateBTree()
         {
-          BTree tree = new BTree();
+          BTree<int, int> tree = new BTree<int, int>(3);
           Assert.True(tree != null);
+          Assert.AreEqual(3, tree.Degree);
+          Assert.AreEqual(1, tree.Heigth);
         }
+        
+        
     }
 }

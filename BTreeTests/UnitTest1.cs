@@ -28,6 +28,16 @@ namespace Tests
             tree.Insert(2);
             Assert.AreEqual(2, tree.Root.Entries.Count);
         }
+
+        [Test]
+        public void CanFindTheValueInTheBTree()
+        {
+            BTree<int> tree = new BTree<int>(3);
+            tree.Insert(1);
+            tree.Insert(2);
+            Assert.AreEqual(1, tree.Search(1).Value);
+            Assert.AreEqual(null, tree.Search(3));
+        }
         
         
     }

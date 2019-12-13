@@ -11,5 +11,6 @@ namespace TestPS3
         {
             return this.Value.Equals(other.Value);
         }
+        
     }
 }

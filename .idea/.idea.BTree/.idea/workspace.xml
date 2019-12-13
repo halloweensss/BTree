@@ -13,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BTreeTests/obj/Debug/netcoreapp2.1/BTreeTests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestPS3/BTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/BTree.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPS3/Entry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/Entry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPS3/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/Node.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestPS3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestPS3/bin/Debug/netcoreapp2.1/TestPS3.pdb" afterDir="false" />
@@ -31,10 +33,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/db/f81f0eb2/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestPS3/Entry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0DA41C03-3AB2-4EC4-86F4-F0AF911F1A7C/04/51147b17/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CB5BE0C7-4433-425A-AE2A-B70ED6C7054C/d0/413f00eb/IComparable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestPS3/BTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/502a844c0b104731c7f5d57ef6d0df436d4b75af/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestPS3/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/647AE7D6-89D1-47D4-9DF4-420A4F23C76C/41/298cfda2/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestPS3/obj/Debug/netcoreapp2.1/BTree.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TestPS3/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -46,8 +51,8 @@
         <option value="$PROJECT_DIR$/TestPS3/Entry.cs" />
         <option value="$PROJECT_DIR$/TestPS3/Node.cs" />
         <option value="$PROJECT_DIR$/TestPS3/BTree.cs" />
-        <option value="$PROJECT_DIR$/TestPS3/Program.cs" />
         <option value="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/TestPS3/Program.cs" />
       </list>
     </option>
   </component>
@@ -113,7 +118,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575645052159</updated>
-      <workItem from="1575645056649" duration="19568000" />
+      <workItem from="1575645056649" duration="31236000" />
+      <workItem from="1576235403950" duration="24955000" />
     </task>
     <servers />
   </component>
@@ -121,10 +127,10 @@
     <option name="version" value="1" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="79" />
+    <option name="coveragePercentColumnWidth" value="106" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="44" />
+    <option name="symbolColumnWidth" value="99" />
     <coverage-tree-state>
       <expand>
         <path>
@@ -134,33 +140,53 @@
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="65" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="65" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="4" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="65" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="4" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
           <item name="7" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
           <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="2" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="7" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="8" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="64" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="64" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="1" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="64" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="5" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="6" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
     </coverage-tree-state>
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -176,32 +202,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/TestPS3/Program.cs</url>
-          <line>8</line>
-          <properties documentPath="$PROJECT_DIR$/TestPS3/Program.cs" initialLine="8">
-            <startOffsets>
-              <option value="121" />
-            </startOffsets>
-            <endOffsets>
-              <option value="157" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BTreeTests/UnitTest1.cs</url>
-          <line>42</line>
-          <properties documentPath="$PROJECT_DIR$/BTreeTests/UnitTest1.cs" initialLine="42">
-            <startOffsets>
-              <option value="1179" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1195" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <reveal-manager>

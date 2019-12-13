@@ -7,23 +7,24 @@ namespace TestPS3
         static void Main(string[] args)
         {
             BTree<int> tree = new BTree<int>(2);
-            tree.Insert(1);
-            tree.Insert(2);
-            tree.Insert(3);
-            tree.Insert(4);
-            tree.Insert(5);
-            tree.Insert(6);
-            tree.Insert(7);
-            tree.Insert(8);
-            tree.Insert(9);
             tree.Insert(10);
-            tree.Insert(11);
-            tree.Insert(12);
-            tree.Insert(13);
-            tree.Insert(14);
-            tree.Insert(15);
-            tree.Insert(16);
-            tree.Insert(17);
+            tree.Insert(20);
+            tree.Insert(30);
+            tree.Insert(40);
+            tree.Insert(50);
+            tree.Insert(60);
+            tree.Insert(70);
+            tree.Insert(80);
+            tree.Insert(90);
+            tree.Delete(40);
+            tree.Delete(20);
+            tree.Delete(60);
+            tree.Delete(30);
+            tree.Delete(70);
+            tree.Delete(50);
+            tree.Delete(80);
+            Console.WriteLine(tree.ToString());
+
         }
     }
 }
